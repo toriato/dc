@@ -1,0 +1,56 @@
+{
+  "gallog": {
+    "guestbook": {
+      "credentials": {
+        "username": "user1",
+        "password": "pass1",
+        "totpKey": "totp"
+      }
+    }
+  },
+  "session": {
+    "login": {
+      "invalid": {
+        "username": "invalid-username",
+        "password": "invalid-password"
+      },
+      "invalidTOTPKey": {
+        "username": "user1",
+        "password": "pass1",
+        "totpKey": "invalid-totp"
+      },
+      "valid": {
+        "nickname": "nick2",
+        "username": "user2",
+        "password": "pass2"
+      },
+      "validTOTPKey": {
+        "nickname": "nick1",
+        "username": "user1",
+        "password": "pass1",
+        "totpKey": "totp1"
+      }
+    }
+  },
+  "user": {
+    "credentials": [
+      {
+        "nickname": "nick1",
+        "username": "user1",
+        "password": "pass1",
+        "totpKey": "totp1",
+        "flags": [
+          "Fixed"
+        ]
+      },
+      {
+        "nickname": "nick2",
+        "username": "user2",
+        "password": "pass2",
+        "flags": [
+          "Fixed"
+        ]
+      }
+    ]
+  }
+}
